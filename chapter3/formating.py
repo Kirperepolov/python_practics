@@ -14,8 +14,8 @@ def main():
     print(now.strftime("Locale's time: %X"))        # Locale's time: 13:20:58
 
     # %I/%H - 12/24 Hour, %M - minute, %S - second, %p - locale's AM/PM
-    print(now.strftime("\nCurrent time is: %I:%M:%S %p"))
-    print(now.strftime("24-hour time: %H:%M:%S"))
+    print(now.strftime("\nCurrent time is: %I:%M:%S %p"))   # Current time is: 01:24:39 PM
+    print(now.strftime("24-hour time: %H:%M:%S"))   # 24-hour time: 13:24:39
 
 if __name__ == '__main__':
     main()
